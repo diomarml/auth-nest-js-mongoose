@@ -1,4 +1,6 @@
 import { NestFactory } from '@nestjs/core';
+import {Model} from 'mongoose'
+import {InjectModel} from '@nestjs/mongoose'
 import * as helmet from 'helmet';
 import { AppModule } from './app.module';
 import * as csurf from 'csurf';
